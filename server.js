@@ -9,7 +9,6 @@ const db              = require('./models');
 // const apiRoutes     = require('./routes/apiRoutes');
 const PORT            = process.env.PORT || 3000;
 
-SALT_WORK_FACTOR = 12;
 
 const authRoute = require('./routes/auth');
 const userRoute = require('./routes/user');
